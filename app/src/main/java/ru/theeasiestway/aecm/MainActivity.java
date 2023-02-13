@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean stop;
     private boolean enableAecm;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
